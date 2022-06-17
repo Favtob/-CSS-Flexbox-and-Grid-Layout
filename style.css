@@ -1,0 +1,72 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: white;
+    font-size: 15px;
+    font-family: Lexend Deca,Big Shoulders Display;
+    font-weight: 700;
+}
+main{
+    width: 50%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+}
+P{
+    color: Transparent hsla(0, 0%, 100%, 0.75);
+}
+.first-content{
+background-color: hsl(31, 77%, 52%);
+padding-bottom: 200px;
+border-radius: 5px;
+}
+.mid-content{
+    background-color: hsl(184, 100%, 22%);
+    padding-bottom: 200px;
+    border-radius: 0px;
+}
+.last-content{
+    background-color: hsl(179, 100%, 13%);
+    padding-bottom: 200px;
+    border-radius: 5px;
+}
+.first-content-button{
+    text-decoration-color:  hsl(31, 77%, 52%);
+    border-radius: 15px;
+    border-color: white;
+    font-size: 20px; 
+    background-color:  hsl(0, 0%, 95%);     
+}
+.first-content-button:hover {
+    background-color:  hsl(31, 77%, 52%);
+    color: white;
+  }
+.mid-content-button{
+    text-decoration-color: hsl(184, 100%, 22%);
+    border-radius: 15px;
+    border-color: white;
+    font-size: 20px; 
+    background-color:  hsl(0, 0%, 95%);     
+}  
+
+
+.mid-content-button:hover{
+    background-color: hsl(184, 100%, 22%);
+    color: white;
+}
+.last-content-button{
+    text-decoration-color: hsl(179, 100%, 13%);
+    border-radius: 15px;
+    border-color: white;
+    font-size: 20px;  
+    background-color:  hsl(0, 0%, 95%);     
+} 
+
+.last-content-button:hover{
+    background-color:  hsl(179, 100%, 13%);
+    color: white;
+}

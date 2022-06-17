@@ -1,0 +1,73 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(138, 121, 138);
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    align-self: center;
+}
+main{
+    width: 50%;
+    height: 50%;
+}
+.jil{
+    display: flex;
+}
+.lit{
+    display: flex;
+}
+.wat{
+    display: block;
+}
+.yat{
+    display: flex;
+}
+.box1 {
+    background-color: orangered;
+    box-sizing: border-box;
+    border: 5px solid rgba(19, 6, 19, 0.26);
+    width: 400px;
+    height: 300px;
+    border-color:  rgb(138, 121, 138);
+    align-items: center;
+}
+
+.box2 {
+    background-color: yellow;
+    box-sizing: border-box;
+    border: 5px solid rgba(19, 6, 19, 0.26);
+    width: 200px;
+    height: 300px;
+    border-color:  rgb(138, 121, 138);
+}
+
+.box3 {
+    background-color: rgb(58, 184, 58);
+    box-sizing: border-box;
+    border: 5px solid rgba(19, 6, 19, 0.26);
+    width: 300px;
+    height: 300px;
+    border-color:  rgb(138, 121, 138);
+}
+
+.box4 {
+    background-color: rgba(0, 153, 255, 0.986);
+    box-sizing: border-box;
+    border: 5px solid rgba(19, 6, 19, 0.26);
+    width: 300px;
+    height: 150px;
+    border-color:  rgb(138, 121, 138);
+}
+
+.box5 {
+    background-color: rgba(0, 153, 255, 0.986);
+    box-sizing: border-box;
+    border: 5px solid rgba(19, 6, 19, 0.26);
+    width: 300px;
+    height: 150px;
+    border-color:  rgb(138, 121, 138);
+    display: inline-block;
+}
